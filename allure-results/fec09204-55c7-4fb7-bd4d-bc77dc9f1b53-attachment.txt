@@ -1,0 +1,3 @@
+2026-07-18 23:24:08.076 | INFO     | app.pages.login_page:enter_username:22 - Entering username: student
+2026-07-18 23:24:08.157 | INFO     | app.pages.login_page:enter_password:26 - Entering password
+2026-07-18 23:24:08.231 | INFO     | app.pages.login_page:click_login:30 - Clicking Login button

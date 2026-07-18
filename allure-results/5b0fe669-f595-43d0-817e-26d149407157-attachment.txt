@@ -1,0 +1,1 @@
+[{'username': 'student', 'password': 'Password123', 'expected_result': 'Success'}, {'username': 'student', 'password': 'WrongPassword123', 'expected_result': 'Your password is invalid!'}, {'username': 'wronguser', 'password': 'Password123', 'expected_result': 'Your username is invalid!'}]

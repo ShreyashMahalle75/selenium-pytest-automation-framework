@@ -1,0 +1,3 @@
+2026-07-19 00:19:13.405 | INFO     | app.pages.login_page:enter_username:22 - Entering username: wronguser
+2026-07-19 00:19:13.512 | INFO     | app.pages.login_page:enter_password:26 - Entering password
+2026-07-19 00:19:13.603 | INFO     | app.pages.login_page:click_login:30 - Clicking Login button

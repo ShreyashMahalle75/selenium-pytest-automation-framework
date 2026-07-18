@@ -1,0 +1,769 @@
+2026-07-18 14:44:15 | INFO | __main__:main:9 | Application started
+2026-07-18 14:44:15 | INFO | __main__:main:10 | Application Name : Gym Reservation Bot Pro
+2026-07-18 14:44:15 | INFO | __main__:main:11 | Version          : 1.0.0
+2026-07-18 14:44:15 | INFO | __main__:main:12 | Browser          : chrome
+2026-07-18 14:44:15 | INFO | __main__:main:13 | Headless         : False
+2026-07-18 14:44:15 | SUCCESS | __main__:main:15 | Configuration loaded successfully.
+2026-07-18 14:56:37 | SUCCESS | __main__:main:22 | Google
+2026-07-18 15:00:23 | INFO | __main__:main:17 | Automation framework initialized.
+2026-07-18 15:00:24 | SUCCESS | __main__:main:26 | Framework started successfully.
+2026-07-18 15:02:27 | INFO | __main__:main:17 | Automation framework initialized.
+2026-07-18 15:02:29 | SUCCESS | __main__:main:26 | Framework started successfully.
+2026-07-18 15:04:07 | INFO | __main__:main:28 | Automation framework initialized.
+2026-07-18 15:04:10 | SUCCESS | __main__:main:36 | Framework running successfully.
+2026-07-18 18:40:12 | INFO | __main__:main:30 | Automation framework initialized.
+2026-07-18 18:40:12 | SUCCESS | __main__:main:37 | Framework running successfully.
+2026-07-18 18:44:12 | INFO | __main__:main:30 | Automation framework initialized.
+2026-07-18 18:44:12 | SUCCESS | __main__:main:37 | Framework running successfully.
+2026-07-18 18:45:15 | INFO | __main__:main:18 | Opened Google successfully.
+2026-07-18 18:45:15 | INFO | __main__:main:32 | Automation framework initialized.
+2026-07-18 18:45:15 | SUCCESS | __main__:main:39 | Framework running successfully.
+2026-07-18 18:50:56 | INFO | __main__:main:18 | Opened Google successfully.
+2026-07-18 18:50:56 | INFO | __main__:main:32 | Automation framework initialized.
+2026-07-18 18:50:56 | SUCCESS | __main__:main:39 | Framework running successfully.
+2026-07-18 19:34:37 | INFO | __main__:main:11 | ============================================================
+2026-07-18 19:34:37 | INFO | __main__:main:12 | Gym Reservation Bot
+2026-07-18 19:34:37 | INFO | __main__:main:13 | ============================================================
+2026-07-18 19:34:49 | INFO | app.services.auth_service:login:16 | Opening login page...
+2026-07-18 19:34:49 | ERROR | __main__:main:29 | Automation failed: BASE_URL is not configured in the .env file.
+Traceback (most recent call last):
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 37, in <module>
+    main()
+    └ <function main at 0x000002C576C5BAB0>
+
+> File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 22, in main
+    auth_service.login()
+    │            └ <function AuthService.login at 0x000002C57A6775E0>
+    └ <app.services.auth_service.AuthService object at 0x000002C57A3EEBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\services\auth_service.py", line 19, in login
+    raise ValueError("BASE_URL is not configured in the .env file.")
+
+ValueError: BASE_URL is not configured in the .env file.
+2026-07-18 19:34:51 | INFO | __main__:main:33 | Browser closed.
+2026-07-18 19:39:15 | INFO | __main__:main:11 | ============================================================
+2026-07-18 19:39:15 | INFO | __main__:main:12 | Gym Reservation Bot
+2026-07-18 19:39:15 | INFO | __main__:main:13 | ============================================================
+2026-07-18 19:39:16 | INFO | app.services.auth_service:login:16 | Opening login page...
+2026-07-18 19:39:20 | INFO | app.services.auth_service:login:23 | Entering credentials...
+2026-07-18 19:39:21 | INFO | app.services.auth_service:login:30 | Verifying login...
+2026-07-18 19:39:42 | ERROR | __main__:main:29 | Automation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6bb8a0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff6bb8a0d80+15600]
+	chromedriver!(No symbol) [0x7ff6bb3f594d]
+	chromedriver!(No symbol) [0x7ff6bb4508e9]
+	chromedriver!(No symbol) [0x7ff6bb450bec]
+	chromedriver!(No symbol) [0x7ff6bb4a1437]
+	chromedriver!(No symbol) [0x7ff6bb49e01b]
+	chromedriver!(No symbol) [0x7ff6bb442e6c]
+	chromedriver!(No symbol) [0x7ff6bb443d93]
+	chromedriver!GetHandleVerifier [0x7ff6bbe86431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff6bbe80a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff6bbea5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff6bb8bdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff6bb8c661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff6bb8aab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff6bb8aad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff6bb88d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+Traceback (most recent call last):
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 37, in <module>
+    main()
+    └ <function main at 0x0000026E226CBAB0>
+
+> File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 22, in main
+    auth_service.login()
+    │            └ <function AuthService.login at 0x0000026E261575E0>
+    └ <app.services.auth_service.AuthService object at 0x0000026E25ECEBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\services\auth_service.py", line 32, in login
+    success_message = self.login_page.get_success_message()
+                      │    │          └ <function LoginPage.get_success_message at 0x0000026E2618B740>
+                      │    └ <app.pages.login_page.LoginPage object at 0x0000026E261E06E0>
+                      └ <app.services.auth_service.AuthService object at 0x0000026E25ECEBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\login_page.py", line 34, in get_success_message
+    return self.get_text(self.SUCCESS_MESSAGE)
+           │    │        │    └ ('class name', 'post-title')
+           │    │        └ <app.pages.login_page.LoginPage object at 0x0000026E261E06E0>
+           │    └ <function BasePage.get_text at 0x0000026E2618AC40>
+           └ <app.pages.login_page.LoginPage object at 0x0000026E261E06E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 45, in get_text
+    return self.find(locator).text
+           │    │    └ ('class name', 'post-title')
+           │    └ <function BasePage.find at 0x0000026E2618A980>
+           └ <app.pages.login_page.LoginPage object at 0x0000026E261E06E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 30, in find
+    return self.wait.until(EC.presence_of_element_located(locator))
+           │    │    │     │  │                           └ ('class name', 'post-title')
+           │    │    │     │  └ <function presence_of_element_located at 0x0000026E26157D70>
+           │    │    │     └ <module 'selenium.webdriver.support.expected_conditions' from 'C:\\Users\\mahal\\OneDrive\\Desktop\\projects\\gym-reservation...
+           │    │    └ <function WebDriverWait.until at 0x0000026E26157320>
+           │    └ <selenium.webdriver.support.wait.WebDriverWait (session="77048a49d03355c9fa85a38b570a7e91")>
+           └ <app.pages.login_page.LoginPage object at 0x0000026E261E06E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['\tchromedriver!GetHandleVerifier [0x7ff6bb8a0d25+155a5]', '\tchromedriver!GetHandleVerifier [0x7ff6bb8a0d80+15600]', '\tchr...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6bb8a0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff6bb8a0d80+15600]
+	chromedriver!(No symbol) [0x7ff6bb3f594d]
+	chromedriver!(No symbol) [0x7ff6bb4508e9]
+	chromedriver!(No symbol) [0x7ff6bb450bec]
+	chromedriver!(No symbol) [0x7ff6bb4a1437]
+	chromedriver!(No symbol) [0x7ff6bb49e01b]
+	chromedriver!(No symbol) [0x7ff6bb442e6c]
+	chromedriver!(No symbol) [0x7ff6bb443d93]
+	chromedriver!GetHandleVerifier [0x7ff6bbe86431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff6bbe80a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff6bbea5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff6bb8bdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff6bb8c661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff6bb8aab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff6bb8aad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff6bb88d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+2026-07-18 19:39:44 | INFO | __main__:main:33 | Browser closed.
+2026-07-18 19:43:22 | INFO | __main__:main:11 | ============================================================
+2026-07-18 19:43:22 | INFO | __main__:main:12 | Gym Reservation Bot
+2026-07-18 19:43:22 | INFO | __main__:main:13 | ============================================================
+2026-07-18 19:43:23 | INFO | app.services.auth_service:login:16 | Opening login page...
+2026-07-18 19:43:25 | INFO | app.services.auth_service:login:23 | Entering credentials...
+2026-07-18 19:43:25 | INFO | app.pages.login_page:enter_username:20 | Entering username: mahal
+2026-07-18 19:43:25 | INFO | app.pages.login_page:enter_password:24 | Entering password
+2026-07-18 19:43:25 | INFO | app.pages.login_page:click_login:28 | Clicking Login button
+2026-07-18 19:43:25 | INFO | app.services.auth_service:login:30 | Verifying login...
+2026-07-18 19:43:46 | ERROR | __main__:main:29 | Automation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6bb8a0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff6bb8a0d80+15600]
+	chromedriver!(No symbol) [0x7ff6bb3f594d]
+	chromedriver!(No symbol) [0x7ff6bb4508e9]
+	chromedriver!(No symbol) [0x7ff6bb450bec]
+	chromedriver!(No symbol) [0x7ff6bb4a1437]
+	chromedriver!(No symbol) [0x7ff6bb49e01b]
+	chromedriver!(No symbol) [0x7ff6bb442e6c]
+	chromedriver!(No symbol) [0x7ff6bb443d93]
+	chromedriver!GetHandleVerifier [0x7ff6bbe86431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff6bbe80a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff6bbea5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff6bb8bdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff6bb8c661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff6bb8aab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff6bb8aad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff6bb88d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+Traceback (most recent call last):
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 37, in <module>
+    main()
+    └ <function main at 0x000001CAF3B2BAB0>
+
+> File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 22, in main
+    auth_service.login()
+    │            └ <function AuthService.login at 0x000001CAF74E7690>
+    └ <app.services.auth_service.AuthService object at 0x000001CAF725EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\services\auth_service.py", line 32, in login
+    success_message = self.login_page.get_success_message()
+                      │    │          └ <function LoginPage.get_success_message at 0x000001CAF751B740>
+                      │    └ <app.pages.login_page.LoginPage object at 0x000001CAF75706E0>
+                      └ <app.services.auth_service.AuthService object at 0x000001CAF725EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\login_page.py", line 37, in get_success_message
+    return self.get_text(self.SUCCESS_MESSAGE)
+           │    │        │    └ ('class name', 'post-title')
+           │    │        └ <app.pages.login_page.LoginPage object at 0x000001CAF75706E0>
+           │    └ <function BasePage.get_text at 0x000001CAF751AC40>
+           └ <app.pages.login_page.LoginPage object at 0x000001CAF75706E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 45, in get_text
+    return self.find(locator).text
+           │    │    └ ('class name', 'post-title')
+           │    └ <function BasePage.find at 0x000001CAF751A980>
+           └ <app.pages.login_page.LoginPage object at 0x000001CAF75706E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 30, in find
+    return self.wait.until(EC.presence_of_element_located(locator))
+           │    │    │     │  │                           └ ('class name', 'post-title')
+           │    │    │     │  └ <function presence_of_element_located at 0x000001CAF74E7D70>
+           │    │    │     └ <module 'selenium.webdriver.support.expected_conditions' from 'C:\\Users\\mahal\\OneDrive\\Desktop\\projects\\gym-reservation...
+           │    │    └ <function WebDriverWait.until at 0x000001CAF74E7320>
+           │    └ <selenium.webdriver.support.wait.WebDriverWait (session="49ce060351db50525362dac1c3e987a1")>
+           └ <app.pages.login_page.LoginPage object at 0x000001CAF75706E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['\tchromedriver!GetHandleVerifier [0x7ff6bb8a0d25+155a5]', '\tchromedriver!GetHandleVerifier [0x7ff6bb8a0d80+15600]', '\tchr...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6bb8a0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff6bb8a0d80+15600]
+	chromedriver!(No symbol) [0x7ff6bb3f594d]
+	chromedriver!(No symbol) [0x7ff6bb4508e9]
+	chromedriver!(No symbol) [0x7ff6bb450bec]
+	chromedriver!(No symbol) [0x7ff6bb4a1437]
+	chromedriver!(No symbol) [0x7ff6bb49e01b]
+	chromedriver!(No symbol) [0x7ff6bb442e6c]
+	chromedriver!(No symbol) [0x7ff6bb443d93]
+	chromedriver!GetHandleVerifier [0x7ff6bbe86431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff6bbe80a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff6bbea5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff6bb8bdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff6bb8c661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff6bb8aab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff6bb8aad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff6bb88d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+2026-07-18 19:43:48 | INFO | __main__:main:33 | Browser closed.
+2026-07-18 19:47:41 | INFO | __main__:main:11 | ============================================================
+2026-07-18 19:47:41 | INFO | __main__:main:12 | Gym Reservation Bot
+2026-07-18 19:47:41 | INFO | __main__:main:13 | ============================================================
+2026-07-18 19:47:42 | INFO | app.services.auth_service:login:16 | Opening login page...
+2026-07-18 19:47:45 | INFO | app.services.auth_service:login:23 | Entering credentials...
+2026-07-18 19:47:45 | INFO | app.pages.login_page:enter_username:20 | Entering username: mahal
+2026-07-18 19:47:45 | INFO | app.pages.login_page:enter_password:24 | Entering password
+2026-07-18 19:47:46 | INFO | app.pages.login_page:click_login:28 | Clicking Login button
+2026-07-18 19:47:46 | INFO | app.services.auth_service:login:30 | Verifying login...
+2026-07-18 19:48:06 | ERROR | __main__:main:29 | Automation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6bf3e0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff6bf3e0d80+15600]
+	chromedriver!(No symbol) [0x7ff6bef3594d]
+	chromedriver!(No symbol) [0x7ff6bef908e9]
+	chromedriver!(No symbol) [0x7ff6bef90bec]
+	chromedriver!(No symbol) [0x7ff6befe1437]
+	chromedriver!(No symbol) [0x7ff6befde01b]
+	chromedriver!(No symbol) [0x7ff6bef82e6c]
+	chromedriver!(No symbol) [0x7ff6bef83d93]
+	chromedriver!GetHandleVerifier [0x7ff6bf9c6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff6bf9c0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff6bf9e5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff6bf3fdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff6bf40661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff6bf3eab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff6bf3ead04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff6bf3cd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+Traceback (most recent call last):
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 37, in <module>
+    main()
+    └ <function main at 0x00000233FF12BAB0>
+
+> File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 22, in main
+    auth_service.login()
+    │            └ <function AuthService.login at 0x0000023382E775E0>
+    └ <app.services.auth_service.AuthService object at 0x0000023382BEEBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\services\auth_service.py", line 32, in login
+    success_message = self.login_page.get_success_message()
+                      │    │          └ <function LoginPage.get_success_message at 0x0000023382EAB740>
+                      │    └ <app.pages.login_page.LoginPage object at 0x0000023382F006E0>
+                      └ <app.services.auth_service.AuthService object at 0x0000023382BEEBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\login_page.py", line 37, in get_success_message
+    return self.get_text(self.SUCCESS_MESSAGE)
+           │    │        │    └ ('class name', 'post-title')
+           │    │        └ <app.pages.login_page.LoginPage object at 0x0000023382F006E0>
+           │    └ <function BasePage.get_text at 0x0000023382EAAC40>
+           └ <app.pages.login_page.LoginPage object at 0x0000023382F006E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 45, in get_text
+    return self.find(locator).text
+           │    │    └ ('class name', 'post-title')
+           │    └ <function BasePage.find at 0x0000023382EAA980>
+           └ <app.pages.login_page.LoginPage object at 0x0000023382F006E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 30, in find
+    return self.wait.until(EC.presence_of_element_located(locator))
+           │    │    │     │  │                           └ ('class name', 'post-title')
+           │    │    │     │  └ <function presence_of_element_located at 0x0000023382E77D70>
+           │    │    │     └ <module 'selenium.webdriver.support.expected_conditions' from 'C:\\Users\\mahal\\OneDrive\\Desktop\\projects\\gym-reservation...
+           │    │    └ <function WebDriverWait.until at 0x0000023382E77320>
+           │    └ <selenium.webdriver.support.wait.WebDriverWait (session="c7eb24284fb96ca9122a4a70a589b34f")>
+           └ <app.pages.login_page.LoginPage object at 0x0000023382F006E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['\tchromedriver!GetHandleVerifier [0x7ff6bf3e0d25+155a5]', '\tchromedriver!GetHandleVerifier [0x7ff6bf3e0d80+15600]', '\tchr...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6bf3e0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff6bf3e0d80+15600]
+	chromedriver!(No symbol) [0x7ff6bef3594d]
+	chromedriver!(No symbol) [0x7ff6bef908e9]
+	chromedriver!(No symbol) [0x7ff6bef90bec]
+	chromedriver!(No symbol) [0x7ff6befe1437]
+	chromedriver!(No symbol) [0x7ff6befde01b]
+	chromedriver!(No symbol) [0x7ff6bef82e6c]
+	chromedriver!(No symbol) [0x7ff6bef83d93]
+	chromedriver!GetHandleVerifier [0x7ff6bf9c6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff6bf9c0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff6bf9e5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff6bf3fdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff6bf40661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff6bf3eab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff6bf3ead04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff6bf3cd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+2026-07-18 19:48:09 | INFO | __main__:main:33 | Browser closed.
+2026-07-18 19:55:01 | INFO | __main__:main:20 | ============================================================
+2026-07-18 19:55:01 | INFO | __main__:main:21 | Gym Reservation Bot
+2026-07-18 19:55:01 | INFO | __main__:main:22 | ============================================================
+2026-07-18 19:55:02 | INFO | app.services.auth_service:login:16 | Opening login page...
+2026-07-18 19:55:04 | INFO | app.services.auth_service:login:23 | Entering credentials...
+2026-07-18 19:55:04 | INFO | app.pages.login_page:enter_username:20 | Entering username: mahal
+2026-07-18 19:55:04 | INFO | app.pages.login_page:enter_password:24 | Entering password
+2026-07-18 19:55:04 | INFO | app.pages.login_page:click_login:28 | Clicking Login button
+2026-07-18 19:55:04 | INFO | app.services.auth_service:login:30 | Verifying login...
+2026-07-18 19:55:25 | ERROR | __main__:main:38 | Automation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70a990d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff70a990d80+15600]
+	chromedriver!(No symbol) [0x7ff70a4e594d]
+	chromedriver!(No symbol) [0x7ff70a5408e9]
+	chromedriver!(No symbol) [0x7ff70a540bec]
+	chromedriver!(No symbol) [0x7ff70a591437]
+	chromedriver!(No symbol) [0x7ff70a58e01b]
+	chromedriver!(No symbol) [0x7ff70a532e6c]
+	chromedriver!(No symbol) [0x7ff70a533d93]
+	chromedriver!GetHandleVerifier [0x7ff70af76431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff70af70a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff70af95865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff70a9adace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff70a9b661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff70a99ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff70a99ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff70a97d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+Traceback (most recent call last):
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 46, in <module>
+    main()
+    └ <function main at 0x000001EAC708BAB0>
+
+> File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 31, in main
+    auth_service.login()
+    │            └ <function AuthService.login at 0x000001EACAB175E0>
+    └ <app.services.auth_service.AuthService object at 0x000001EACA88EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\services\auth_service.py", line 32, in login
+    success_message = self.login_page.get_success_message()
+                      │    │          └ <function LoginPage.get_success_message at 0x000001EACAB4B740>
+                      │    └ <app.pages.login_page.LoginPage object at 0x000001EACABA06E0>
+                      └ <app.services.auth_service.AuthService object at 0x000001EACA88EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\login_page.py", line 37, in get_success_message
+    return self.get_text(self.SUCCESS_MESSAGE)
+           │    │        │    └ ('class name', 'post-title')
+           │    │        └ <app.pages.login_page.LoginPage object at 0x000001EACABA06E0>
+           │    └ <function BasePage.get_text at 0x000001EACAB4AC40>
+           └ <app.pages.login_page.LoginPage object at 0x000001EACABA06E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 45, in get_text
+    return self.find(locator).text
+           │    │    └ ('class name', 'post-title')
+           │    └ <function BasePage.find at 0x000001EACAB4A980>
+           └ <app.pages.login_page.LoginPage object at 0x000001EACABA06E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 30, in find
+    return self.wait.until(EC.presence_of_element_located(locator))
+           │    │    │     │  │                           └ ('class name', 'post-title')
+           │    │    │     │  └ <function presence_of_element_located at 0x000001EACAB17D70>
+           │    │    │     └ <module 'selenium.webdriver.support.expected_conditions' from 'C:\\Users\\mahal\\OneDrive\\Desktop\\projects\\gym-reservation...
+           │    │    └ <function WebDriverWait.until at 0x000001EACAB17320>
+           │    └ <selenium.webdriver.support.wait.WebDriverWait (session="38941c3b572ee90880fc281369a65581")>
+           └ <app.pages.login_page.LoginPage object at 0x000001EACABA06E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['\tchromedriver!GetHandleVerifier [0x7ff70a990d25+155a5]', '\tchromedriver!GetHandleVerifier [0x7ff70a990d80+15600]', '\tchr...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70a990d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff70a990d80+15600]
+	chromedriver!(No symbol) [0x7ff70a4e594d]
+	chromedriver!(No symbol) [0x7ff70a5408e9]
+	chromedriver!(No symbol) [0x7ff70a540bec]
+	chromedriver!(No symbol) [0x7ff70a591437]
+	chromedriver!(No symbol) [0x7ff70a58e01b]
+	chromedriver!(No symbol) [0x7ff70a532e6c]
+	chromedriver!(No symbol) [0x7ff70a533d93]
+	chromedriver!GetHandleVerifier [0x7ff70af76431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff70af70a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff70af95865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff70a9adace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff70a9b661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff70a99ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff70a99ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff70a97d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+2026-07-18 19:55:27 | INFO | __main__:main:42 | Browser closed.
+2026-07-18 19:56:12 | INFO | __main__:main:20 | ============================================================
+2026-07-18 19:56:12 | INFO | __main__:main:21 | Gym Reservation Bot
+2026-07-18 19:56:12 | INFO | __main__:main:22 | ============================================================
+2026-07-18 19:56:13 | INFO | app.services.auth_service:login:16 | Opening login page...
+2026-07-18 19:56:15 | INFO | app.services.auth_service:login:23 | Entering credentials...
+2026-07-18 19:56:15 | INFO | app.pages.login_page:enter_username:20 | Entering username: mahal
+2026-07-18 19:56:15 | INFO | app.pages.login_page:enter_password:24 | Entering password
+2026-07-18 19:56:15 | INFO | app.pages.login_page:click_login:28 | Clicking Login button
+2026-07-18 19:56:15 | INFO | app.services.auth_service:login:30 | Verifying login...
+2026-07-18 19:56:36 | ERROR | __main__:main:38 | Automation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70a990d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff70a990d80+15600]
+	chromedriver!(No symbol) [0x7ff70a4e594d]
+	chromedriver!(No symbol) [0x7ff70a5408e9]
+	chromedriver!(No symbol) [0x7ff70a540bec]
+	chromedriver!(No symbol) [0x7ff70a591437]
+	chromedriver!(No symbol) [0x7ff70a58e01b]
+	chromedriver!(No symbol) [0x7ff70a532e6c]
+	chromedriver!(No symbol) [0x7ff70a533d93]
+	chromedriver!GetHandleVerifier [0x7ff70af76431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff70af70a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff70af95865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff70a9adace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff70a9b661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff70a99ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff70a99ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff70a97d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+Traceback (most recent call last):
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 46, in <module>
+    main()
+    └ <function main at 0x000001D4BD20BAB0>
+
+> File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 31, in main
+    auth_service.login()
+    │            └ <function AuthService.login at 0x000001D4C0CB75E0>
+    └ <app.services.auth_service.AuthService object at 0x000001D4C0A3EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\services\auth_service.py", line 32, in login
+    success_message = self.login_page.get_success_message()
+                      │    │          └ <function LoginPage.get_success_message at 0x000001D4C0CEB740>
+                      │    └ <app.pages.login_page.LoginPage object at 0x000001D4C0D406E0>
+                      └ <app.services.auth_service.AuthService object at 0x000001D4C0A3EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\login_page.py", line 37, in get_success_message
+    return self.get_text(self.SUCCESS_MESSAGE)
+           │    │        │    └ ('class name', 'post-title')
+           │    │        └ <app.pages.login_page.LoginPage object at 0x000001D4C0D406E0>
+           │    └ <function BasePage.get_text at 0x000001D4C0CEAC40>
+           └ <app.pages.login_page.LoginPage object at 0x000001D4C0D406E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 45, in get_text
+    return self.find(locator).text
+           │    │    └ ('class name', 'post-title')
+           │    └ <function BasePage.find at 0x000001D4C0CEA980>
+           └ <app.pages.login_page.LoginPage object at 0x000001D4C0D406E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 30, in find
+    return self.wait.until(EC.presence_of_element_located(locator))
+           │    │    │     │  │                           └ ('class name', 'post-title')
+           │    │    │     │  └ <function presence_of_element_located at 0x000001D4C0CB7D70>
+           │    │    │     └ <module 'selenium.webdriver.support.expected_conditions' from 'C:\\Users\\mahal\\OneDrive\\Desktop\\projects\\gym-reservation...
+           │    │    └ <function WebDriverWait.until at 0x000001D4C0CB7320>
+           │    └ <selenium.webdriver.support.wait.WebDriverWait (session="8a044224a12b958a8e3bc55cddaf3a21")>
+           └ <app.pages.login_page.LoginPage object at 0x000001D4C0D406E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['\tchromedriver!GetHandleVerifier [0x7ff70a990d25+155a5]', '\tchromedriver!GetHandleVerifier [0x7ff70a990d80+15600]', '\tchr...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70a990d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff70a990d80+15600]
+	chromedriver!(No symbol) [0x7ff70a4e594d]
+	chromedriver!(No symbol) [0x7ff70a5408e9]
+	chromedriver!(No symbol) [0x7ff70a540bec]
+	chromedriver!(No symbol) [0x7ff70a591437]
+	chromedriver!(No symbol) [0x7ff70a58e01b]
+	chromedriver!(No symbol) [0x7ff70a532e6c]
+	chromedriver!(No symbol) [0x7ff70a533d93]
+	chromedriver!GetHandleVerifier [0x7ff70af76431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff70af70a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff70af95865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff70a9adace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff70a9b661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff70a99ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff70a99ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff70a97d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+2026-07-18 19:56:38 | INFO | __main__:main:42 | Browser closed.
+2026-07-18 19:58:54 | INFO | __main__:main:20 | ============================================================
+2026-07-18 19:58:54 | INFO | __main__:main:21 | Gym Reservation Bot
+2026-07-18 19:58:54 | INFO | __main__:main:22 | ============================================================
+2026-07-18 19:58:55 | INFO | app.services.auth_service:login:16 | Opening login page...
+2026-07-18 19:59:00 | INFO | app.services.auth_service:login:23 | Entering credentials...
+2026-07-18 19:59:00 | INFO | app.pages.login_page:enter_username:20 | Entering username: mahal
+2026-07-18 19:59:00 | INFO | app.pages.login_page:enter_password:24 | Entering password
+2026-07-18 19:59:01 | INFO | app.pages.login_page:click_login:28 | Clicking Login button
+2026-07-18 19:59:01 | INFO | app.services.auth_service:login:30 | Verifying login...
+2026-07-18 19:59:21 | ERROR | __main__:main:38 | Automation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70a990d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff70a990d80+15600]
+	chromedriver!(No symbol) [0x7ff70a4e594d]
+	chromedriver!(No symbol) [0x7ff70a5408e9]
+	chromedriver!(No symbol) [0x7ff70a540bec]
+	chromedriver!(No symbol) [0x7ff70a591437]
+	chromedriver!(No symbol) [0x7ff70a58e01b]
+	chromedriver!(No symbol) [0x7ff70a532e6c]
+	chromedriver!(No symbol) [0x7ff70a533d93]
+	chromedriver!GetHandleVerifier [0x7ff70af76431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff70af70a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff70af95865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff70a9adace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff70a9b661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff70a99ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff70a99ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff70a97d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+Traceback (most recent call last):
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 46, in <module>
+    main()
+    └ <function main at 0x000001F582B5BAB0>
+
+> File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 31, in main
+    auth_service.login()
+    │            └ <function AuthService.login at 0x000001F5865E75E0>
+    └ <app.services.auth_service.AuthService object at 0x000001F58635EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\services\auth_service.py", line 32, in login
+    success_message = self.login_page.get_success_message()
+                      │    │          └ <function LoginPage.get_success_message at 0x000001F58661B740>
+                      │    └ <app.pages.login_page.LoginPage object at 0x000001F5866706E0>
+                      └ <app.services.auth_service.AuthService object at 0x000001F58635EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\login_page.py", line 37, in get_success_message
+    return self.get_text(self.SUCCESS_MESSAGE)
+           │    │        │    └ ('class name', 'post-title')
+           │    │        └ <app.pages.login_page.LoginPage object at 0x000001F5866706E0>
+           │    └ <function BasePage.get_text at 0x000001F58661AC40>
+           └ <app.pages.login_page.LoginPage object at 0x000001F5866706E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 45, in get_text
+    return self.find(locator).text
+           │    │    └ ('class name', 'post-title')
+           │    └ <function BasePage.find at 0x000001F58661A980>
+           └ <app.pages.login_page.LoginPage object at 0x000001F5866706E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 30, in find
+    return self.wait.until(EC.presence_of_element_located(locator))
+           │    │    │     │  │                           └ ('class name', 'post-title')
+           │    │    │     │  └ <function presence_of_element_located at 0x000001F5865E7D70>
+           │    │    │     └ <module 'selenium.webdriver.support.expected_conditions' from 'C:\\Users\\mahal\\OneDrive\\Desktop\\projects\\gym-reservation...
+           │    │    └ <function WebDriverWait.until at 0x000001F5865E7320>
+           │    └ <selenium.webdriver.support.wait.WebDriverWait (session="a8c6a5904f5e8778e6655cdffd21a97a")>
+           └ <app.pages.login_page.LoginPage object at 0x000001F5866706E0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['\tchromedriver!GetHandleVerifier [0x7ff70a990d25+155a5]', '\tchromedriver!GetHandleVerifier [0x7ff70a990d80+15600]', '\tchr...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70a990d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff70a990d80+15600]
+	chromedriver!(No symbol) [0x7ff70a4e594d]
+	chromedriver!(No symbol) [0x7ff70a5408e9]
+	chromedriver!(No symbol) [0x7ff70a540bec]
+	chromedriver!(No symbol) [0x7ff70a591437]
+	chromedriver!(No symbol) [0x7ff70a58e01b]
+	chromedriver!(No symbol) [0x7ff70a532e6c]
+	chromedriver!(No symbol) [0x7ff70a533d93]
+	chromedriver!GetHandleVerifier [0x7ff70af76431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff70af70a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff70af95865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff70a9adace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff70a9b661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff70a99ab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff70a99ad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff70a97d9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+2026-07-18 19:59:24 | INFO | __main__:main:42 | Browser closed.
+2026-07-18 20:05:26 | INFO | __main__:main:20 | ============================================================
+2026-07-18 20:05:26 | INFO | __main__:main:21 | Gym Reservation Bot
+2026-07-18 20:05:26 | INFO | __main__:main:22 | ============================================================
+2026-07-18 20:05:28 | INFO | app.services.auth_service:login:16 | Opening login page...
+2026-07-18 20:05:30 | INFO | app.services.auth_service:login:22 | Username from .env: student
+2026-07-18 20:05:30 | INFO | app.services.auth_service:login:23 | Password length: 11
+2026-07-18 20:05:30 | INFO | app.services.auth_service:login:25 | Entering credentials...
+2026-07-18 20:05:30 | INFO | app.pages.login_page:enter_username:20 | Entering username: student
+2026-07-18 20:05:30 | INFO | app.pages.login_page:enter_password:24 | Entering password
+2026-07-18 20:05:31 | INFO | app.pages.login_page:click_login:28 | Clicking Login button
+2026-07-18 20:05:32 | INFO | app.services.auth_service:login:32 | Verifying login...
+2026-07-18 20:05:32 | SUCCESS | app.services.auth_service:login:39 | Login successful.
+2026-07-18 20:05:32 | SUCCESS | __main__:main:33 | Login automation completed successfully!
+2026-07-18 20:13:33 | INFO | __main__:main:42 | Browser closed.
+2026-07-18 20:13:38 | INFO | __main__:main:12 | ============================================================
+2026-07-18 20:13:38 | INFO | __main__:main:13 | Gym Reservation Bot
+2026-07-18 20:13:38 | INFO | __main__:main:14 | ============================================================
+2026-07-18 20:13:40 | INFO | app.services.auth_service:login:17 | Opening login page...
+2026-07-18 20:13:42 | INFO | app.services.auth_service:login:24 | Entering credentials...
+2026-07-18 20:13:42 | INFO | app.services.auth_service:login:26 | Verifying login...
+2026-07-18 20:14:02 | ERROR | __main__:main:30 | Automation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6111d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff6111d0d80+15600]
+	chromedriver!(No symbol) [0x7ff610d2594d]
+	chromedriver!(No symbol) [0x7ff610d808e9]
+	chromedriver!(No symbol) [0x7ff610d80bec]
+	chromedriver!(No symbol) [0x7ff610dd1437]
+	chromedriver!(No symbol) [0x7ff610dce01b]
+	chromedriver!(No symbol) [0x7ff610d72e6c]
+	chromedriver!(No symbol) [0x7ff610d73d93]
+	chromedriver!GetHandleVerifier [0x7ff6117b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff6117b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff6117d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff6111edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff6111f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff6111dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff6111dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff6111bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+Traceback (most recent call last):
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 38, in <module>
+    main()
+    └ <function main at 0x000002ADE224BAB0>
+
+> File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\main.py", line 23, in main
+    auth_service.login()
+    │            └ <function AuthService.login at 0x000002ADE5CD7690>
+    └ <app.services.auth_service.AuthService object at 0x000002ADE5A4EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\services\auth_service.py", line 28, in login
+    if not self.dashboard_page.is_logged_in():
+           │    │              └ <function DashboardPage.is_logged_in at 0x000002ADE5D0B320>
+           │    └ <app.pages.dashboard_page.DashboardPage object at 0x000002ADE5D62A50>
+           └ <app.services.auth_service.AuthService object at 0x000002ADE5A4EBA0>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\dashboard_page.py", line 22, in is_logged_in
+    return "Logged In Successfully" in self.get_success_message()
+                                       │    └ <function DashboardPage.get_success_message at 0x000002ADE5CD7740>
+                                       └ <app.pages.dashboard_page.DashboardPage object at 0x000002ADE5D62A50>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\dashboard_page.py", line 14, in get_success_message
+    return self.get_text(self.SUCCESS_MESSAGE)
+           │    │        │    └ ('class name', 'post-title')
+           │    │        └ <app.pages.dashboard_page.DashboardPage object at 0x000002ADE5D62A50>
+           │    └ <function BasePage.get_text at 0x000002ADE5D0ACF0>
+           └ <app.pages.dashboard_page.DashboardPage object at 0x000002ADE5D62A50>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 45, in get_text
+    return self.find(locator).text
+           │    │    └ ('class name', 'post-title')
+           │    └ <function BasePage.find at 0x000002ADE5D0AA30>
+           └ <app.pages.dashboard_page.DashboardPage object at 0x000002ADE5D62A50>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\app\pages\base_page.py", line 30, in find
+    return self.wait.until(EC.presence_of_element_located(locator))
+           │    │    │     │  │                           └ ('class name', 'post-title')
+           │    │    │     │  └ <function presence_of_element_located at 0x000002ADE5CD7E20>
+           │    │    │     └ <module 'selenium.webdriver.support.expected_conditions' from 'C:\\Users\\mahal\\OneDrive\\Desktop\\projects\\gym-reservation...
+           │    │    └ <function WebDriverWait.until at 0x000002ADE5CD7320>
+           │    └ <selenium.webdriver.support.wait.WebDriverWait (session="3a9093705802b6e5da7e8126ef45e83f")>
+           └ <app.pages.dashboard_page.DashboardPage object at 0x000002ADE5D62A50>
+
+  File "C:\Users\mahal\OneDrive\Desktop\projects\gym-reservation-bot\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['\tchromedriver!GetHandleVerifier [0x7ff6111d0d25+155a5]', '\tchromedriver!GetHandleVerifier [0x7ff6111d0d80+15600]', '\tchr...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6111d0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff6111d0d80+15600]
+	chromedriver!(No symbol) [0x7ff610d2594d]
+	chromedriver!(No symbol) [0x7ff610d808e9]
+	chromedriver!(No symbol) [0x7ff610d80bec]
+	chromedriver!(No symbol) [0x7ff610dd1437]
+	chromedriver!(No symbol) [0x7ff610dce01b]
+	chromedriver!(No symbol) [0x7ff610d72e6c]
+	chromedriver!(No symbol) [0x7ff610d73d93]
+	chromedriver!GetHandleVerifier [0x7ff6117b6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff6117b0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff6117d5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff6111edace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff6111f661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff6111dab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff6111dad04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff6111bd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ffe430ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffe435cad6c+2c]
+
+2026-07-18 20:14:05 | INFO | __main__:main:34 | Browser closed.
+2026-07-18 20:19:50 | INFO | __main__:main:12 | ============================================================
+2026-07-18 20:19:50 | INFO | __main__:main:13 | Gym Reservation Bot
+2026-07-18 20:19:50 | INFO | __main__:main:14 | ============================================================
+2026-07-18 20:19:53 | INFO | app.services.auth_service:login:18 | Opening login page...
+2026-07-18 20:19:56 | INFO | app.services.auth_service:login:25 | Entering credentials...
+2026-07-18 20:19:56 | INFO | app.pages.login_page:enter_username:20 | Entering username: student
+2026-07-18 20:19:56 | INFO | app.pages.login_page:enter_password:24 | Entering password
+2026-07-18 20:19:57 | INFO | app.pages.login_page:click_login:28 | Clicking Login button
+2026-07-18 20:19:58 | INFO | app.services.auth_service:login:32 | Verifying login...
+2026-07-18 20:19:58 | SUCCESS | app.services.auth_service:login:37 | Login successful.
+2026-07-18 20:19:58 | SUCCESS | __main__:main:25 | Login automation completed successfully!
+2026-07-18 21:11:04 | INFO | __main__:main:34 | Browser closed.

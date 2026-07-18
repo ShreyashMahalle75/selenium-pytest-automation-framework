@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  gym-reservation-bot:
+    build: .
+
+    container_name: gym-reservation-bot
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+
+    stdin_open: true
+    tty: true
+
+    restart: unless-stopped
